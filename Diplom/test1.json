@@ -1,0 +1,51 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+
+  "include":[
+  {
+    "title": "Sample Test",
+    "questions": [
+      {
+        "questionText": "What is 2 + 2?",
+        "answers": [
+          {
+            "answerText": "3",
+            "isCorrect": false
+          },
+          {
+            "answerText": "4",
+            "isCorrect": true
+          },
+          {
+            "answerText": "5",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "questionText": "What is the capital of France?",
+        "answers": [
+          {
+            "answerText": "Berlin",
+            "isCorrect": false
+          },
+          {
+            "answerText": "Madrid",
+            "isCorrect": false
+          },
+          {
+            "answerText": "Paris",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  }
+}

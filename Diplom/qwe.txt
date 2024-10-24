@@ -1,0 +1,11 @@
+TestName = test1
+Author = tsts
+Date = 06.04.2024
+Time = 22
+QuestionCount = 3
+Skipable = True
+
+=Объявление строковой переменной
+-int
++string
+-bool
